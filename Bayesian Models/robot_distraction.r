@@ -1,10 +1,10 @@
 library(rethinking)
 
 # Likert responses
-rating <- c(5, 5, 3, 5, 3, 3, 2, 4)
+rating <- c(5, 5, 3, 5, 3, 3, 2, 4, 3, 4, 3, 1, 6, 5, 7, 6, 5, 3, 2, 3, 5)
 
 # 1 = test group, 0 = control
-group <- c(1, 1, 1, 1, 0, 0, 0, 0)
+group <- c(1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0)
 
 # Data list for ulam
 dat <- list(
