@@ -1,3 +1,10 @@
+#This should be right but pls double check 
+#slouches_group0 <- c(2, 2, 4, 5, 3, 6, 3, 10, 2, 9)
+#corrections_group0 <- c(1, 1, 3, 3, 3, 5, 3, 8, 0, 7)
+
+#slouches_group1 <- c(3, 2, 5, 5, 7, 3, 6, 4, 7, 6)
+#corrections_group1 <- c(1, 2, 5, 4, 6, 3, 6, 3, 6, 5)
+
 # Data
 slouches_group0 <- c(2, 2, 6, 5, 5, 6, 4, 1, 8, 2, 9)
 corrections_group0 <- c(1, 1, 5, 4, 4, 6, 3, 0, 6, 1, 7)
