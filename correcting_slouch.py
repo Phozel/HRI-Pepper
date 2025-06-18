@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Data
-group = np.array([0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0])
+group = np.array([0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0])
 slouches = np.array([2, 2, 3, 2, 4, 5, 5, 5, 7, 3, 6, 3, 6, 3, 6, 4, 7, 10, 2, 9])
 corrections = np.array([1, 1, 1, 2, 3, 3, 5, 4, 6, 3, 6, 3, 5, 3, 6, 3, 6, 8, 0, 7])
 
