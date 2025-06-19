@@ -1,16 +1,14 @@
-#This should be right but pls double check 
-#slouches_group0 <- c(2, 2, 4, 5, 3, 6, 3, 10, 2, 9)
-#corrections_group0 <- c(1, 1, 3, 3, 3, 5, 3, 8, 0, 7)
 
-#slouches_group1 <- c(3, 2, 5, 5, 7, 3, 6, 4, 7, 6)
-#corrections_group1 <- c(1, 2, 5, 4, 6, 3, 6, 3, 6, 5)
 
 # Data
-slouches_group0 <- c(2, 2, 6, 5, 5, 6, 4, 1, 8, 2, 9)
-corrections_group0 <- c(1, 1, 5, 4, 4, 6, 3, 0, 6, 1, 7)
+#Group 0 = Control Group
+#Group 1 = Test Group
 
-slouches_group1 <- c(2, 3, 3, 6, 6, 3, 3, 6, 6, 4, 6)
-corrections_group1 <- c(1, 2, 2, 6, 6, 3, 3, 6, 6, 3, 5)
+slouches_group0 <- c(2, 2, 5, 4, 6, 3, 1, 9, 1, 8)
+corrections_group0 <- c(1, 1, 3, 3, 6, 3, 0, 8, 0, 8)
+
+slouches_group1 <- c(2, 2, 5, 5, 7, 3, 7, 6, 4, 8)
+corrections_group1 <- c(1, 2, 5, 4, 6, 3, 7, 6, 3, 8)
 
 # Combine into a data frame
 group <- c(rep(0, length(slouches_group0)), rep(1, length(slouches_group1)))

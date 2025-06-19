@@ -3,19 +3,16 @@ library(rethinking)
 # Data
 # 1 = test group, 0 = control
 group <- c(
-  0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0,  # new data
-  1, 1, 1, 1, 0, 0, 0, 0                    # previous data
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
 )
 
 # n = nr of events
 slouches <- c(
-  2, 2, 2, 3, 3, 6, 5, 5, 6, 6, 3, 3, 6, 4,  # new data
-  6, 6, 4, 6, 1, 8, 2, 9                    # previous data
+  2, 2, 5, 4, 6, 3, 1, 9, 1, 8, 2, 2, 5, 5, 7, 3, 7, 6, 4, 8
 )
 
 corrections <- c(
-  1, 1, 1, 2, 2, 5, 4, 4, 6, 6, 3, 3, 6, 3,  # new data
-  6, 6, 3, 5, 0, 6, 1, 7                    # previous data
+  1, 1, 3, 3, 6, 3, 0, 8, 0, 8, 1, 2, 5, 4, 6, 3, 7, 6, 3, 8
 )
 
 data_list <- list(
