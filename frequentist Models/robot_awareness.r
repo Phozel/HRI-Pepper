@@ -9,3 +9,4 @@ model <- polr(rating ~ group, method = "logistic")
 
 # Summary
 print(summary(model))
+print(exp(coef(model)["group1"]))

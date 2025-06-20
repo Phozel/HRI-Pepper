@@ -11,6 +11,4 @@ model <- polr(rating ~ group, method = "logistic")
 
 # Summary output
 print(summary(model))
-
-# Get odds ratio
-print(exp(coef(model)))
+print(exp(coef(model)["group1"]))
